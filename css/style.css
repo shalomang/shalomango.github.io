@@ -158,6 +158,7 @@ footer{
     }
     .list1 ul li{
         margin: 0 10px;
+        line-height: 25px;
     }
     .list1 ul li a{
         font-size: 10px;
