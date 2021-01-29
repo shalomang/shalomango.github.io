@@ -394,14 +394,6 @@ footer{
         box-shadow: 7px 4px 19px -2px rgba(0,0,0,0.75);
         border-radius: 50px;
     }
-    .formcontainer2{
-        transform: translate(300px, 30px);
-        width: 50%;
-        height: 500px;
-        background-color: #001971;
-        box-shadow: 7px 4px 19px -2px rgba(0,0,0,0.75);
-        border-radius: 50px;
-    }
 }
 
 @media(max-width: 400px) {
@@ -418,14 +410,6 @@ footer{
     }
     .formSection h4{
         color: white;
-    }
-    .formcontainer2{
-        transform: translate(15px, 45px);
-        width: 90%;
-        height: 500px;
-        background-color: #001871b4;
-        box-shadow: 7px 4px 19px -2px rgba(0,0,0,0.75);
-        border-radius: 50px;
     }
 }
 
@@ -444,14 +428,6 @@ footer{
     .formSection h4{
         color: white;
     }
-    .formcontainer2{
-        transform: translate(15px, 45px);
-        width: 90%;
-        height: 500px;
-        background-color: #001871b4;
-        box-shadow: 7px 4px 19px -2px rgba(0,0,0,0.75);
-        border-radius: 50px;
-    }
 }
 @media(max-width: 800px) {
     .formcontainer{
@@ -469,6 +445,41 @@ footer{
     .formSection h4{
         color: white;
     }
+}
+
+@media(max-width: 1200px) {
+    .formcontainer2{
+        transform: translate(300px, 30px);
+        width: 50%;
+        height: 500px;
+        background-color: #001971;
+        box-shadow: 7px 4px 19px -2px rgba(0,0,0,0.75);
+        border-radius: 50px;
+    }
+}
+
+@media(max-width: 400px) {
+    .formcontainer2{
+        transform: translate(15px, 45px);
+        width: 90%;
+        height: 500px;
+        background-color: #001871b4;
+        box-shadow: 7px 4px 19px -2px rgba(0,0,0,0.75);
+        border-radius: 50px;
+    }
+}
+
+@media(max-width: 500px) {
+    .formcontainer2{
+        transform: translate(15px, 45px);
+        width: 90%;
+        height: 500px;
+        background-color: #001871b4;
+        box-shadow: 7px 4px 19px -2px rgba(0,0,0,0.75);
+        border-radius: 50px;
+    }
+}
+@media(max-width: 800px) {
     .formcontainer2{
         z-index: 1;
         transform: translate(15px, 45px);
