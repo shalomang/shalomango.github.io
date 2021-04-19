@@ -1,88 +1,347 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
-        <link rel="icon" href="images/logo/fav-icon.png"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"> 
-        <title>ChatBox | La solution y ai</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Shalom Ango Portefeuille</title>
+<!--
+Stacked Template
+https://templatemo.com/tm-505-stacked
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-         <div class="navbar">
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <label class="logo"><a href="index.html"><img src="images/logo/chat-box-light.png" width="180px" alt="logo"></a></label>
-                <ul class="here">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Créator</a></li>
-                    <button id="btn-con"><a href="#">Connexion</a></button>
-                </ul>
-        </div>
-        <section class="back">
-            <section class="formcontainer">
-                <div class="formSection">
-                    <h1 style="color: white;">Se connecter</h1>
-                    <div class="inputRow">
-                        <div class="inputIcon">
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA8ElEQVRIS92V7Q2CMBCGHyZQJ1A3cQMdQSfTEXADR9EJ1Ak0r+HIBdu0tOEP/UW43vvVcjRMvJqJ8ZkXwQ44A5vK2O7ACbgJx0ekwroS3NqFtR0SfLrqFdgXEvnen3jvwAj07gBcgEUm0Rs4Ai3gcYIEK+AFLDuSlBupFrj1PDtRUQfaqEOSGq2YG6/a9umSSFifTigiS0UEIgq5GaoWsIT4FXXgN4XcqO7dedWjCUJu9E4xhFQXE6jR3Og5prqKIPPG9tuyzmAs6Mwd6BBzR0MquodNZf+haVxr/tROVIFrdPyN65Sqovq8fplFEaSavqBYNhl8VUyIAAAAAElFTkSuQmCC"/>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="nav">
+          <div class="burger">
+            <div class="burger__patty"></div>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#1" class="nav__link c-blue"><img src="img/home-icon.png" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <a href="#2" class="nav__link c-yellow scrolly"><img src="img/about-icon.png" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <a href="#4" class="nav__link c-red"><img src="img/projects-icon.png" alt=""></a>
+            </li>
+            <li class="nav__item">
+              <a href="#5" class="nav__link c-green"><img src="img/contact-icon.png" alt=""></a>
+            </li>
+          </ul>
+        </nav>
+
+        <section class="panel b-blue" id="1">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="home-content">
+                      <div class="home-heading">
+                        <h1><em>Shalom</em> ANGO</h1>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="home-box-content">
+                            <div class="left-text">
+                              <h4 style="font-size: 1.4em;">Informations personnelle</h4>
+                              <p>Etudiant en première année d'ingénierie informatique à Epitech Bénin Je suis passionné de l'informatique: IA,développement web, mobile, sécurité informatique. Extrêmement motivé pour développer constamment mes compétences et évoluer professionnellement. Je suis confiant dans ma capacité à proposer de belles idées.</p>
+                              <div class="primary-button">
+                                <a href="#2">Découvrir plus</a>
+                              </div>
+                            </div>
+                            <div class="right-image">
+                              <img  style="width: 200px;" src="img/right-home-image.png" alt="">
+                            </div>
+                          </div>
                         </div>
-                        <input type="text" name="userName" id="userName" placeholder="Username">
+                      </div>
                     </div>
-                    <div class="inputRow">
-                        <div class="inputIcon">
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA4ElEQVRIS+2VbQ3CMBRFzxQQFABKAAc4ABQQFAAOcAAOQAIoARzgAHKTLqylX1uyhIT1z5ql757X2/a9gpZH0bI+uYAZsAImJqELsAP0jY4cwBGYB1QE2cYIKYAyPxmBNXA28wWwMfNpbCcpgCwYAxLfO5kqc0GuFeu+NpMCvExEH3g60UPgZv4FdXIBoXVlAn8G0F0/APK4zrgDS/dG+bzTwkEd5cpaxY6qsT5AeXANGXZ16AA+Gy1XOot+0yJVzV7DR/BwK4DvkFUq1MXqvmaJqxFZbTRVrhtu5BPWOuANLRgoGcuyqIoAAAAASUVORK5CYII="/>
-                        </div>
-                        <input type="password" name="userPassword" id="userPassword" placeholder="Password">
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <input type="checkbox" name="rememberMe" id="rememberMe">
-                            <p style="color: aliceblue; margin-top:-22px; margin-left: 22px; font-size: 13px">Enrégistrer</p>
-                        </div>
-                        <a href="#" id="forgotpassword">Mot de passe oublié?</a>
-                    </div>
-                    <div class="btnROw">
-                        <input type="button" value="Connexion" class="btn" id="loginbtn">
-                    </div>
-                    <div class="btnROw">
-                        <button class="btn" id="btn-con"><a href="inscription.html">S'inscrire</a></button>
-                    </div>
-                    <h4>Ou se connecter avec</h4>
-                    <div class="btnRow">
-                        <a href="#" class="btn btnGroup">
-                            <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
-                            Facebook
-                        </a>
-                        <a href="#" class="btn btnGroup">
-                            <img src="https://img.icons8.com/fluent/48/000000/google-logo.png"/>
-                            Google
-                        </a>
-                    </div>
+                  </div>
                 </div>
-            </section>
+              </div>
+            </div>
+          </article>
         </section>
-        <!--For script-->
+        <section class="panel b-yellow" id="2">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="about-content">
+                      <div class="heading">
+                        <h4>A propos de moi</h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="about-box-content">
+                            <img src="img/about-image.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-md-offset-4ss">
+                          <div class="about-box-text">
+                            <h4>Mes formations</h4>
+                            <p>Epitech-Bénin: <strong>2020 à nos jour</strong> Cycle Bachelor en ingenierie informatiques.</p>
+                            <p>Epitech-Bénin: <strong>2019 - 2020</strong> Cour préparatoire (Notion en HTML, CSS et JavaScript).</p>
+                            <p>CS La grande academie: <br> Baccalauréat Série D <strong>(2019)</strong> <br> Brevet d'étude du premier cycle <strong>(2016)</strong>.</p>
+                            <div class="primary-button">
+                              <a href="#3">Découvrir plus</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-yellow" id="3">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="about-content">
+                      <div class="heading">
+                        <h4>Monde professionnel</h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="about-box-content">
+                            <img src="img/about-image.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-md-offset-8s">
+                          <div class="about-box-text">
+                            <h4>Mon parcours professionel</h4>
+                            <p><strong>Chef d'association</strong> <em>CREATOR</em>, une association de développement (web et mobile) à Epitech Bénin depuis <strong> janvier 2021</strong>.</p>
+                            <p>J'ai travaillé chez <em>Fitzone Bénin</em> en tant de <strong>Dévelopeur Web</strong>, chargé de développer le site internet de Fitzone (une salle de sport) . De <strong>Juillet 2020 à Septembre 2020</strong>.</p>
+                            <p> J'ai participé au concour <strong> Google hash code</strong>, un Challenge de programation organisé par google en <strong>Fevrier 2020</strong>.</p>
+                            <p>Participant à la <strong> Global game jam </strong> Concour international de création de jeu video en <strong> janvier 2020</strong>.</p>
+                            <p>Participant au <strong>Health Tech challenge</strong>, un challenge qui consistait à proposer et réaliser un prototype de solution numérique dans le domaine de la santé. En<strong> janvier 2021</strong>.</p>
+                            <div class="primary-button">
+                              <a href="#4">Découvrir plus</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-yellow" id="3">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="about-content">
+                      <div class="heading">
+                        <h4>Mes compétences technique</h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="about-box-content">
+                            <img src="img/about-image.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-md-offset-8s">
+                          <div class="about-box-text">
+                            <h4>langages de programation et outils</h4>
+                            <ul style="font-size: 1.3em; color: rgb(170, 77, 0);">
+                              <li>C, C++, Python, Html, Css, JavaScript</li> <br>
+                              <li>Node JS, Vue JS, Express JS, React Native</li><br>
+                              <li>PHP, MYSQL, Mongo-DB, Django, DOKER</li><br>
+                              <li>Git (github, gitlab), Linux, CSFML (pour créaction de jeu) </li><br>
+                            </ul>
+                            <ul style="font-size: 1.3em; color: rgb(0, 26, 170);">
+                              <li>Androïd studio, FileZila, EZFacility: Management</li> <br>
+                              <li>Figma, Microsoft Word et excel</li><br>
+                            </ul>
+                            <div class="primary-button">
+                              <a href="#4">Découvrir plus</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-red" id="4">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="projects-content">
+                      <div class="heading">
+                        <h4>Projets récent</h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="owl-carousel owl-theme projects-container">
+                            <div>
+                              <div class="project-item">
+                                <a href="img/project-item-01.png" data-lightbox="image-1"><img src="img/project-item-01.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Chat Box <em>(en cour)</em></h4>
+                                  <p>Projet Creator: Application Web de Freelance et de chat pro</p>
+                                  <div class="primary-button">
+                                    <a href="https://github.com/EPITECH-CREATOR/Chatbox_interface">Voir le projet</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/project-item-02.png" data-lightbox="image-1"><img src="img/project-item-02.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Epic (MVP)</h4>
+                                  <p>Application mobile de résumé de film (text et trailer)</p>
+                                  <div class="primary-button">
+                                    <a href="https://github.com/shalomang/epic_movie">Voir le projet</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/project-item-03.png" data-lightbox="image-1"><img src="img/project-item-03.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Fitzone.bj</h4>
+                                  <p> Site internet officiel de fitzone bénin.</p>
+                                  <div class="primary-button">
+                                    <a href="https://fitzone.bj">Voir le projet</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/project-item-06.png" data-lightbox="image-1"><img src="img/project-item-06.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Dante star</h4>
+                                  <p>Projet Epitech: Intellegence Artifiel (algo de Dikstra utilsé par google map pour retrouver le chemin le plus rapide)</p>
+                                  <div class="primary-button">
+                                    <a href="git@github.com:shalomang/dante_star.git">Voir le projet</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/project-item-04.png" data-lightbox="image-1"><img src="img/project-item-04.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>My defender</h4>
+                                  <p>Jeu de tower defense réaliser en CSFML</p>
+                                  <div class="primary-button">
+                                    <a href="https://github.com/shalomang/my_defender">Voir le projet</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="project-item">
+                                <a href="img/project-item-05.png" data-lightbox="image-1"><img src="img/project-item-05.png" alt=""></a>
+                                <div class="text-content">
+                                  <h4>Delta-game (en cour)</h4>
+                                  <p>Site officiel de Delta Game : Association de EA-sport</p>
+                                  <div class="primary-button">
+                                    <a href="git@github.com:shalomang/delta_game.github.io.git">Voir le projet</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="panel b-green" id="5">
+          <article class="panel__wrapper">
+            <div class="panel__content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-3">
+                    <div class="contact-content">
+                      <div class="heading">
+                        <h4>Contactez moi</h4>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="contat-form">
+                            <form id="contact" method="post"></form>
+                              <fieldset>
+                                <a href="mailto:shalom.ango@epitech.eu">Envoyez moi un mail!</a>
+                              </fieldset><br>
+                              <fieldset>
+                                <a href="https://www.linkedin.com/in/shalom-ango-7b3015198/">Rejoignez moi sur Linkedin</a>
+                              </fieldset><br>
+                              <fieldset>
+                                <a href="https://github.com/shalomang">Suivez moi sur Github!</a>
+                              </fieldset><br>
+                              <a href="https://github.com/shalomang?tab=followers"><BUtton>Cliquez pour me suivre</BUtton></a>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="more-info">
+                            <p>Disponible pour travailler sur des projets freelance.<br><br>
+                            <em>j'ai soif d'apprendre et de connaitre de nouvelle technologie. Soif des défis!</em></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="footer">
+                      <p>Copyright &copy; 2021 Shalom Ango </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
     </body>
-    <footer>
-        <section class="list1">
-            <ul>
-                <li><a href="#">Connexoin</a></li>
-                <li><a href="#">Confidentialité</a></li>
-                <li><a href="#">Créator</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Conditions générales</a></li>
-                <li><a href="#">Dévellopeurs</a></li>
-                <li><a href="#">Lieux</a></li>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Aide</a></li>
-                <P>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved for ChatBox</P>
-            </ul>
-        </section>
-    </footer>
 </html>
